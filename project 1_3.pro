@@ -1,3 +1,5 @@
+% This code was referenced from https://github.com/partorizam/Prolog---Jealous-Husbands/blob/master/jealous.pl
+      
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %% ||Author - Marc Khristian Partoriza  ||
 %% ||Date   - February 16th 2014        ||
