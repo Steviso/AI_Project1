@@ -31,7 +31,7 @@ path(X,Step,Last,Str):-
 		Step2 is Step -1,
 		Y\=Last,		
 		atom_concat(X,' --> ',S),  % S=X -->
-		atom_concat(Str,S,Str2),    % Str2=Str S		
+		atom_concat(Str,S,Str2),   % Str2=Str S		
 		path(Y,Step2,X,Str2),
 		fail
 	;write(Str),write(X),nl.
