@@ -1,3 +1,5 @@
+% This code was referenced from Tsang Jeeteung, ZENG ZITONGT. Thanks for his contribution.
+
 %root(a).
 parent(a,b). parent(a,c). parent(a,d). 
 parent(b,e). parent(b,f). parent(c,g). parent(c,h). parent(c,i). parent(d,j).
