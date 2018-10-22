@@ -28,10 +28,10 @@ path(X,Step):-path(X,Step,X,'').
 path(X,Step,Last,Str):- 
 	Step>1 ->                          % if 
 		connect(X,Y),
-		SS is Step -1,
+		Step2 is Step -1,
 		Y\=Last,		
 		atom_concat(X,' --> ',S),  % S=X -->
-		atom_concat(Str,S,SSS),    % SSS=Str S		
-		path(Y,SS,X,SSS),
+		atom_concat(Str,S,Str2),    % Str2=Str S		
+		path(Y,Step2,X,Str2),
 		fail
 	;write(Str),write(X),nl.
